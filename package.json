@@ -1,0 +1,47 @@
+{
+  "name": "react-use-webp-support-check",
+  "version": "0.0.0-development",
+  "description": "React Hook to determine if WebP is supported in the current environment",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepack": "tsc",
+    "build": "tsc",
+    "test": "jest",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keplersj/react-use-webp-support-check.git"
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "webp"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keplersj/react-use-webp-support-check/issues"
+  },
+  "homepage": "https://github.com/keplersj/react-use-webp-support-check#readme",
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.17",
+    "@types/react": "^16.9.16",
+    "jest": "^24.9.0",
+    "jest-runner-prettier": "^0.3.3",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
+    "semantic-release": "^15.13.31",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "supports-webp": "^2.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
