@@ -5,10 +5,13 @@ import { useWebPSupportCheck } from "..";
 
 describe("useWebPSupportCheck", () => {
   describe("when WebP isn't supported", () => {
-    it("returns false", async () => {
+    it("returns false after update", async () => {
       const { result, waitForNextUpdate } = renderHook(() =>
         useWebPSupportCheck()
       );
+
+      expect(result.current).toBe(false);
+
       await waitForNextUpdate();
 
       expect(result.current).toBe(false);
