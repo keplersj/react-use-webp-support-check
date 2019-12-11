@@ -7,7 +7,7 @@
     "prepack": "tsc",
     "build": "tsc",
     "test": "jest",
-    "semantic-release": "semantic-release"
+    "test:mutation": "stryker run"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/keplersj/react-use-webp-support-check#readme",
   "devDependencies": {
+    "@stryker-mutator/core": "^2.4.0",
+    "@stryker-mutator/html-reporter": "^2.4.0",
+    "@stryker-mutator/jest-runner": "^2.4.0",
+    "@stryker-mutator/typescript": "^2.4.0",
     "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.17",

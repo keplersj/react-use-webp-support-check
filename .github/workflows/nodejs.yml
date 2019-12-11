@@ -22,6 +22,7 @@ jobs:
       - run: npm test -- --ci
         env:
           CI: true
+      - run: npm run test:mutation
       - uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}

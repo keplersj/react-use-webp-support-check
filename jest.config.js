@@ -10,7 +10,12 @@ module.exports = {
     {
       displayName: "lint:prettier",
       preset: "jest-runner-prettier",
-      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
+      testPathIgnorePatterns: [
+        "/node_modules/",
+        "/dist/",
+        "/coverage/",
+        "/reports/"
+      ]
     }
   ]
 };
