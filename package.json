@@ -34,7 +34,7 @@
     "@types/node": "^13.1.0",
     "@types/react": "^16.9.16",
     "eslint": "^6.8.0",
-    "eslint-config-starstuff": "^1.0.41",
+    "eslint-config-starstuff": "^1.2.3",
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.5",
     "jest-runner-prettier": "^0.3.3",
@@ -52,9 +52,6 @@
     "react": "^16.8.0"
   },
   "eslintConfig": {
-    "extends": [
-      "starstuff/typescript",
-      "starstuff/react"
-    ]
+    "extends": "starstuff/auto"
   }
 }
