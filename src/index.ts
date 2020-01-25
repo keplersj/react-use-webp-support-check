@@ -13,7 +13,7 @@ export function useWebPSupportCheck(): boolean {
     };
 
     checkForSupport();
-  }, []);
+  }, [webPCheck]);
 
   return supportsWebP;
 }
