@@ -16,6 +16,15 @@ module.exports = {
         "/coverage/",
         "/reports/"
       ]
+    },
+    {
+      displayName: "lint:eslint",
+      runner: "eslint",
+      testMatch: [
+        "<rootDir>/src/**/*.js",
+        "<rootDir>/src/**/*.ts",
+        "<rootDir>/src/**/*.tsx"
+      ]
     }
   ]
 };
