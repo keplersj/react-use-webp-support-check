@@ -5,7 +5,7 @@ module.exports = {
       displayName: "test",
       preset: "ts-jest",
       collectCoverage: true,
-      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/"],
     },
     {
       displayName: "lint:prettier",
@@ -14,8 +14,8 @@ module.exports = {
         "/node_modules/",
         "/dist/",
         "/coverage/",
-        "/reports/"
-      ]
+        "/reports/",
+      ],
     },
     {
       displayName: "lint:eslint",
@@ -23,8 +23,8 @@ module.exports = {
       testMatch: [
         "<rootDir>/src/**/*.js",
         "<rootDir>/src/**/*.ts",
-        "<rootDir>/src/**/*.tsx"
-      ]
-    }
-  ]
+        "<rootDir>/src/**/*.tsx",
+      ],
+    },
+  ],
 };
