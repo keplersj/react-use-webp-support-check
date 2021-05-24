@@ -27,7 +27,7 @@
   "devDependencies": {
     "@stryker-mutator/core": "^4.3.1",
     "@stryker-mutator/jest-runner": "^4.3.1",
-    "@testing-library/react-hooks": "^6.0.0",
+    "@testing-library/react-hooks": "^7.0.0",
     "@types/jest": "^26.0.0",
     "@types/node": "^15.0.0",
     "@types/react": "^17.0.0",
